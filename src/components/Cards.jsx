@@ -3,7 +3,7 @@ import React from 'react';
 
 export default function Cards(props) {
    const {characters} = props
-   return  <div>
+   return  <div style={{display: 'flex'}}>
    {characters.map((character) => (
      <Card
        key={character.id}
