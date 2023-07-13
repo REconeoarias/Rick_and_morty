@@ -1,7 +1,7 @@
 // import './App.css';
-import Card from './Card/Card.jsx';
-import Cards from './Cards/Cards.jsx';
-import SearchBar from './SearchBar/SearchBar.jsx';
+import Card from './Card';
+import Cards from './Cards';
+import SearchBar from './SearchBar';
 import characters, { Rick } from './data.js';
 
 function App() {
