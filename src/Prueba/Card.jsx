@@ -1,8 +1,8 @@
-import styles from './color.css'
+import style from './color.css'
 
 export default function Card(props) {
    return (
-      <div className={styles.container}>
+      <div className={style.card}>
          // <button onClick={props.onClose}>X</button>
          // <h2>{props.name}</h2>
          // <h2>{props.status}</h2>
@@ -24,6 +24,6 @@ export default function Card(props) {
 
 
 
-
+{}
 
 
