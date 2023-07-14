@@ -1,0 +1,28 @@
+.card {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  border-radius: 8px;
+  position: relative;
+}
+
+/* .card::before { */
+  /* content: ""; */
+  /* position: absolute; */
+  /* top: 0; */
+  /* left: 0; */
+  /* right: 0; */
+  /* height: 50%; */
+  /* background: url("estrellas.png") repeat; */
+/* } */
+/*  */
+/* .card::after { */
+  /* content: ""; */
+  /* position: absolute; */
+  /* bottom: 0; */
+  /* left: 0; */
+  /* right: 0; */
+  /* height: 50%; */
+  /* background-color: #5e17eb; */
+/* } */
+/*  */
