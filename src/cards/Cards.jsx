@@ -1,4 +1,4 @@
-import Card from './Prueba/Card';
+import Card from './cards.module.css';
 import React from 'react';
 
 export default function Cards(props) {

@@ -22,7 +22,7 @@ export default [
          name: 'Earth (C-137)',
          url: 'https://rickandmortyapi.com/api/location/1',
       },
-      // image: 'https://rickandmortyapi.com/api/character/avatar/1.jpeg',
+      image: 'https://rickandmortyapi.com/api/character/avatar/1.jpeg',
    },
    {
       id: 2,
