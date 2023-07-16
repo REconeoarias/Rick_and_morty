@@ -1,0 +1,37 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    background-color: rgba(128, 0, 128, 0.5);
+    padding: 2em;
+    border-radius: 15px;
+}
+
+.container > *:not(:last-child) {
+    margin-right: 50px;
+}
+
+/* Media query para pantallas más pequeñas */
+@media screen and (max-width: 1000px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container > *:not(:last-child) {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
