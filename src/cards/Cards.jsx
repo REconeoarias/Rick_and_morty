@@ -3,7 +3,7 @@ import React from 'react';
 import style from './cards.module.css'
 
 export default function Cards(props) {
-   const {characters} = props
+   const {characters, onClose} = props
    return  <div className={style.container}>
    {characters.map((character) => (
      <Card
@@ -13,7 +13,7 @@ export default function Cards(props) {
        species={character.species}
        gender={character.gender}
        image={character.image}
-       onClose={() => window.alert('Emulamos que se cierra la card')}
+       onClose={onClose}
      />
    ))}
  </div>
