@@ -1,13 +1,13 @@
-// import './App.css';
-import Card from './card/Card';
+import React, {useState , useEffect} from 'react';
 import Cards from './cards/Cards';
-import SearchBar from './search/SearchBar';
-import characters from './data.js';
+import NavBar from './navBar/NavBar';
+
 
 function App() {
+   const [characters , setCharacters] = useState ([])
    return (
       <div>
-         <SearchBar onSearch={(characterID) => window.alert(characterID)} />
+         <NavBar onSearch={(characterID) => window.alert(characterID)} />
          <Cards characters={characters} />
         
        
