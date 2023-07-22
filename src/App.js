@@ -5,6 +5,7 @@ import axios from "axios";
 import {  Routes, Route } from "react-router-dom";
 import About from "./About/About";
 import Detail from "./Detail/Detail";
+import Form from "./Form/Form";
 
 function App() {
   const [characters, setCharacters] = useState([]);
@@ -36,7 +37,9 @@ function App() {
 
   return (
     <div>
+     
       <NavBar onSearch={onSearch} />
+      <Form/>
       <Routes>
         <Route path="/home" element ={<Cards onClose={onClose} characters={characters}/>} />
         <Route path="/about" element = {<About/>} />
